@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Toggle color-variable-picker'
-      'command': 'color-variable-picker:open'
+      'command': 'color-variable-picker:toggle'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'color-variable-picker:open'
+          'command': 'color-variable-picker:toggle'
         }
       ]
     ]

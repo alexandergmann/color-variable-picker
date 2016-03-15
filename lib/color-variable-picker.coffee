@@ -26,7 +26,15 @@ module.exports = ColorVariablePicker =
     colorVariablePickerViewState: @colorVariablePickerView.serialize()
 
   toggle: ->
-    # if @modalPanel.isVisible()
-    #   @modalPanel.hide()
-    # else
-    #   @modalPanel.show()
+    editor = atom.workspace.getActiveTextEditor()
+    colorText = editor.getSelectedText()
+    isColor = ColorConverter.isColor colorText
+    if isColor
+      @colorVariablePickerView.colorPickerInfo.selectedColorText = colorText
+
+      if @modalPanel.isVisible()
+        @modalPanel.hide()
+      else
+        @modalPanel.show()
+    else
+      null
