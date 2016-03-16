@@ -2,10 +2,9 @@
   "name": "color-variable-picker",
   "main": "./lib/color-variable-picker",
   "author": "SE-410 Group Drexel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/alexandergmann/color-variable-picker",
   "activationCommands": {
     "atom-workspace": "color-variable-picker:toggle"
