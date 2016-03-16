@@ -15,7 +15,7 @@
   },
   "author": {
     "name": "Alexander Mann",
-    "email": "alexandergmann@gmail.com",
+    "email": "alexandergmann@gmail.com"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.3",
