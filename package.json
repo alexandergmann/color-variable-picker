@@ -1,21 +1,18 @@
 {
   "name": "color-variable-picker",
   "main": "./lib/color-variable-picker",
+  "author": "SE-410 Group Drexel",
   "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [
   ],
-  "homepage": "https://github.com/alexandergmann/color-variable-picker",
+  "repository": "https://github.com/alexandergmann/color-variable-picker",
   "activationCommands": {
     "atom-workspace": "color-variable-picker:toggle"
   },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "author": {
-    "name": "Alexander Mann",
-    "email": "alexandergmann@gmail.com"
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.3",
