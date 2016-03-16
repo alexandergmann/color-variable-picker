@@ -42,3 +42,7 @@ module.exports =
   rgbToHsv: (rgb) ->
     color = onecolor(rgb)
     return color.hsv
+
+  strToHex: (str) ->
+    color = onecolor(str)
+    return color.hexString()
