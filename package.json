@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "homepage": "https://github.com/alexandergmann/color-variable-picker"
+  "homepage": "https://github.com/alexandergmann/color-variable-picker",
   "activationCommands": {
     "atom-workspace": "color-variable-picker:toggle"
   },
